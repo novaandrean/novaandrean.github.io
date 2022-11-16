@@ -1,0 +1,160 @@
+:root{
+    /* color */
+    --primarycolor :#002939;
+    --secondarycolor :#DDC190;
+
+    /* font */
+    --maintfont:'Open Sans', sans-serif;
+    --headingfont: 'Merriweather',sans-serif;
+}
+*{
+    box-sizing: border-box !important;
+    text-decoration: none !important;
+}
+body{
+    font-family: var(--mainfont);
+}
+.heading{
+    font-family: var(--headingfont);
+    font-size: 24px;
+    font-weight: 700;
+    color: var(--secondarycolor)
+}
+.subheading{
+    font-weight:300;
+    color: white
+}
+.section-margin{
+    margin-top: 100px;
+}
+
+/* navbar */
+.navbar-brand{
+    font-family:var(--headingfont);
+    font-weight:900;
+}
+.navbar{
+    background-color: var(--primarycolor)!important;
+}
+.navbar-brand span{
+    color: var(--secondarycolor)!important;
+}
+.nav-link{
+    font-family: var(--headingfont);
+}
+.nav-link .active{
+    font-weight:700;
+    color: var(--secondarycolor)!important;
+}
+.icons-home i{
+    font-size: 1,8rem;
+    color: var(--secondarycolor)
+}
+/* Home */
+.home{
+    background-color: var(--primarycolor) !important;
+    height: 650px;
+    padding-top:10rem;
+}
+.test{
+    color: var(--secondarycolor)
+}
+.btn-home .btn-buy{
+    background-color: var(--secondarycolor);
+    font-family: var(--headingfont);
+    font-weight: 700;
+}
+.btn-home .btn-learn{
+    border: 2px solid var(--secondarycolor);
+    color: var(--secondarycolor);
+    font-family: var(--headingfont);
+    font-weight: 700;
+}
+/* service */
+.card-service{
+    background-color: var(--primarycolor);
+    color: #fff;
+}
+.card-service .btn-service{
+    border: 2px solid var(--secondarycolor);
+    color: var(--secondarycolor);
+    font-family: var(--headingfont);
+    font-weight: 700;
+}
+.card-service .btn-service :hover{
+    background-color: var(--secondarycolor);
+    color: var(--primarycolor);
+}
+.banner1{
+    height: 350px;
+
+}
+.banner1 .container{
+    background-color: var(--primarycolor);
+    overflow-y: hidden;
+}
+.banner1 .btn-banner1{
+    background-color: var(--secondarycolor);
+}
+
+/* product */
+.product .populer h3{
+    font-size: 22px;
+}
+.populer i{
+    font-size: 2,5rem;
+    color: var(--secondarycolor);
+}
+.product-populer .card-product{
+    width: 280px;
+}
+.product-populer .img-box{
+    border: 2px solid var(--primarycolor);
+}
+.detail-product .label{
+    background-color: var(--primarycolor);
+    width: 80px;
+    color: #fff;
+}
+.detail-product a{
+    border: 6px solid var(--secondarycolor);
+    font-color:var(--primarycolor)
+    font-size: 40rem;
+}
+
+
+
+
+
+
+
+
+
+@media  screen and (min-width: 768px) {
+    .home{
+        padding-top: 14px;
+    }
+    .home.heading{
+        font:size 36px;
+    }
+}
+
+@media screen and (min-width: 992px){
+    .home .content-left{
+        padding-bottom: 40px;
+    }
+    .home.heading{
+        font:size 40px;
+    }
+    .home .subheading{
+        font-size: 20;
+    }
+    .home img{
+        right: 0;
+        padding-bottom: -100px;
+    }
+    .home.imgjam{
+        right: o;
+        padding-bottom: -40px;
+    }
+}
